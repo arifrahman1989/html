@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+
+a:hover{
+    text-decoration: none;
+}
+#myself ul li a{
+    padding: 26px 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 12px;
+    color:#ffffff;
+}
+.navbar_self{
+    background: #02918c;
+}
+
+
+
+/* banner part css */
+
+
+#banner .carousel-item{
+    height:600px;
+    background-position: center !important;
+    background-size: cover !important;
+}
+#banner .carousel-caption{
+    bottom:50%;
+    transform: translateY(50%);
+    
+}
+#banner .carousel-caption h3{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+    color:white;
+}
+#banner .carousel-caption h1{
+    text-transform: uppercase;
+    font-size: 68px;
+    font-weight: 800;
+    color:white;
+    letter-spacing: 15px;
+}
+#banner .carousel-caption p{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    color:white;
+}
+ #banner img{
+   padding: 40px 0;
+    
+}
+#banner .carousel-caption a{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 800;
+   background: #cfc91d;
+    padding: 18px 40px;
+    color:#fff;
+}
+/* about part css */
+
+#about_part{
+    margin-top: 60px;
+}
+.section_heading h2{
+    color:#02918c;
+    font-size: 46px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.section_heading h2 span{
+    font-weight: 800px;
+    font-size: 23px;
+}
+#about_part .section_heading p{
+    padding:0 40px;
+}
+.section_heading img{
+    padding:20px 0
+}
+ .about_item{
+    border-right: 1px solid #ddd;
+    box-sizing: border-box;
+    margin-top:50px;
+    padding:40px 20px;
+}
+ .about_item i{
+    font-size: 40px;
+    color:#02918c;
+    padding:20px;
+}
+ .about_item h4{
+    font-weight: 800;
+    font-size: 16px;
+    text-transform: capitalize;
+    transition: .4s;
+    -webkit-transition: .4s;
+    opacity: 1;
+}
+.about_item h4:hover{
+    opacity: 0;
+    cursor:pointer;
+}
+.about_item p{
+    margin:10px;
+    line-height: 30px;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding:0 10px;
+}
+/* Service part css */
+
+#service_part{
+    background: url(../images/service_bn.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 40px;
+    
+}
+ .section_heading{
+    margin-top: 50px;
+}
+#service_part .overright{
+    text-align: left;
+}
+.service_item{
+    box-sizing: border-box;
+    margin-top:20px;
+    padding:40px 0px;
+}
+.service_item i{
+    font-size: 40px;
+    color:#02918c;
+    padding:10px 0;
+}
+.service_item h4{
+    font-weight: 800;
+    font-size: 16px;
+    text-transform: capitalize;
+    transition: .4s;
+    -webkit-transition: .4s;
+    opacity: 1;
+}
+.service_item h4:hover{
+    opacity: 0;
+    cursor:pointer;
+}
+/* my work part css */
+
+#work_part {
+    margin-top: 30px;
+}
+#work_part .section_heading p{
+    padding:0 50px;
+    margin-bottom: 30px;
+}
+.img_hover{
+    position: absolute;
+    left:15px;
+    top:15px;
+    right:15px;
+    bottom:15px;
+    margin:60px 44px;
+    padding-top:50px;
+    color:#fff;
+    background: rgba(35, 152, 146, .8);
+    opacity: 0;
+    transition: .3s;
+    -webkit-transition: .3s;
+}
+.img_hover:hover {
+    opacity: 1;
+    margin:10px 10px;
+    border-radius: 10%;
+    cursor: crosshair
+        ;
+}
+/* Footer part css */
+
+
+#footer_part{
+    margin-top: 40px;
+    background: #0b0b0b;
+}
+#footer_part .form-control{
+     background: none;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    border-radius: 0;
+    text-align: center;
+    font-size: 16px;
+    color:#7e8287;
+    margin: 20px 0;
+}
+#footer_part textarea {
+    height: 100px;
+    resize: none;
+}
+.botton_part{
+    margin:20px 0;
+    background:#cfc91d;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    padding:20px 70px;
+    border-radius: 5px;
+    border:none;
+}
+.footer img{
+    font-size: 12px;
+    color:#7e8287;
+    padding:40px 0;
+}
+
+.backTop{
+    height:50px;
+    width:50px;
+    background: orange;
+    border-radius: 50%;
+    line-height: 50px;
+    color:#fff;
+    font-size: 20px;
+    cursor: pointer;
+    right:20px;
+    bottom: 50px;
+    position: fixed;
+    
+}
